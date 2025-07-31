@@ -18,10 +18,9 @@ const Header: React.FC = () => {
 				{
 					!["/counter-app"].includes(pathname) ? (
 						<>
-						<Button buttonLabel="Sign In" buttonBackgroundColor="red" />
-						<Button buttonLabel="Sign Up" buttonBackgroundColor="blue" />
-						</>
-					): ( <p className="font-semibold text-lg">Current count : {count}</p> );
+						 <Button buttonLabel="Sign In" buttonBackgroundColor="red" />
+						 <Button buttonLabel="Sign Up" buttonBackgroundColor="blue" /> </> 
+					) : ( <p className="font-semibold text-lg">Current count : {count}</p> )
 				}
 				</div>
 			</div>
